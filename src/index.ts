@@ -1,1 +1,1 @@
-console.log('lib');
+export * from './router';

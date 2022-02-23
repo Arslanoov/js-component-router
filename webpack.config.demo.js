@@ -7,6 +7,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'build'),
+    publicPath: '/',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -18,6 +19,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'demo'),
     },
+    historyApiFallback: true,
     compress: true,
     port: 9000,
   },

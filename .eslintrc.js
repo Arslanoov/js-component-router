@@ -22,6 +22,7 @@ module.exports = {
   rules: {
     'prettier/prettier': 2,
 
+    '@typescript-eslint/ban-types': 0,
     '@typescript-eslint/no-var-requires': 0,
     '@typescript-eslint/no-empty-function': 0,
   },
