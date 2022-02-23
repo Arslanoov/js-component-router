@@ -1,4 +1,4 @@
-import Router, { RouterMode } from '../src/router';
+import { Router, RouterMode } from '../src/index';
 
 const router = new Router({
   mode: RouterMode.history,
