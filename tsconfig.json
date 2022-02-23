@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "outDir": "build/types",
+    "declarationDir": "build/types",
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "emitDeclarationOnly": true,
+    "lib": ["es2020", "dom"],
+    "moduleResolution": "node"
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,1 @@
+define("js-component-router",[],(function(){return console.log("lib"),{}}));
