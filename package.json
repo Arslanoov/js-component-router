@@ -1,7 +1,7 @@
 {
   "name": "js-component-router",
   "version": "1.0.1",
-  "description": "",
+  "description": "Router implementation library",
   "main": "./build/index.js",
   "types": "./build/types/index.d.ts",
   "scripts": {
